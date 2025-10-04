@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Contact = () => {
   const [data, setData] = useState({
     name: "",
+    email:"",
     phone: "",
     message: "",
   });
@@ -40,6 +41,21 @@ const Contact = () => {
               value={data.name}
               onChange={handleChange}
               placeholder="Enter your name"
+              className="w-full border rounded-lg p-3 sm:p-4 focus:outline-none focus:ring-2 focus:ring-orange-400 transition"
+            />
+          </div>
+
+           <div>
+            <label className="block text-sm font-semibold text-gray-600 mb-2">
+              Your Email
+            </label>
+            <input
+              required
+              type="email"
+              name="email"
+              value={data.email}
+              onChange={handleChange}
+              placeholder="Enter your email"
               className="w-full border rounded-lg p-3 sm:p-4 focus:outline-none focus:ring-2 focus:ring-orange-400 transition"
             />
           </div>
