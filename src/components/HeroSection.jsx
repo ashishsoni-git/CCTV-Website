@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="relative xl:right-[20rem] max-w-2xl px-6 text-center z-10 ">
         <h1 className="font-extrabold lg:text-4xl md:text-3xl sm:text-2xl ">
           <span className="bg-gradient-to-r from-orange-400 to-yellow-500 bg-clip-text text-transparent ">
-            ATS Global Tech
+            Vision India Tech
           </span>{" "}
           are The Best CCTV Camera Service Provider in Jaipur, Rajasthan
         </h1>

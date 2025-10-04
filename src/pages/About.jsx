@@ -4,8 +4,8 @@ const About = () => {
   const MockData = [
     {
       title:
-        "ATS Global Tech: Your Trusted CCTV Camera Service Provider in Jaipur",
-      desc: "ATS Global Tech has established itself as a reliable and customer-centric company in the field of CCTV camera services in Jaipur. With a team of skilled professionals and years of experience, they offer comprehensive solutions for all your security needs. Whether you need sales, installation, or repair services for CCTV cameras, ATS Global Tech has got you covered.",
+        "Vision India Tech: Your Trusted CCTV Camera Service Provider in Jaipur",
+      desc: "Vision India Tech has established itself as a reliable and customer-centric company in the field of CCTV camera services in Jaipur. With a team of skilled professionals and years of experience, they offer comprehensive solutions for all your security needs. Whether you need sales, installation, or repair services for CCTV cameras, ATS Global Tech has got you covered.",
     },
     {
       title:
@@ -15,12 +15,12 @@ const About = () => {
     {
       title:
         "Your Trusted CCTV Camera Service Provider in Jaipur",
-      desc: "ATS Global Tech has established itself as a reliable and customer-centric company in the field of CCTV camera services in Jaipur. With a team of skilled professionals and years of experience, they offer comprehensive solutions for all your security needs.",
+      desc: "Vision India Tech has established itself as a reliable and customer-centric company in the field of CCTV camera services in Jaipur. With a team of skilled professionals and years of experience, they offer comprehensive solutions for all your security needs.",
     },
       {
       title:
         "CCTV Camera Service Provider in Jaipur, Rajasthan",
-      desc: "ATS Global Tech has established itself as a reliable and customer-centric company in the field of CCTV camera services in Jaipur. With a team of skilled professionals and years of experience, they offer comprehensive solutions for all your security needs.",
+      desc: "Vision India Tech has established itself as a reliable and customer-centric company in the field of CCTV camera services in Jaipur. With a team of skilled professionals and years of experience, they offer comprehensive solutions for all your security needs.",
     },
   ];
   return (
