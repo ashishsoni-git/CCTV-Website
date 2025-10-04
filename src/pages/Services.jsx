@@ -5,7 +5,7 @@ const Services = () => {
   const services = [
     {
       title: "CCTV Camera Installation",
-      desc: "ATS Global Tech provides seamless camera installation for businesses and homes in Jaipur, ensuring efficient setup.",
+      desc: "Vision India Tech provides seamless camera installation for businesses and homes in Jaipur, ensuring efficient setup.",
       img: "https://orbitinfotech.com/images/service/CCTV%20Camera%20Installation.webp",
       alt: "cctv_installation",
     },

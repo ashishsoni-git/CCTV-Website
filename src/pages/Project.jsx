@@ -135,7 +135,7 @@ const Project = () => {
       <div className="mt-24 text-center">
         <a
           href="/contact"
-          className="px-8 py-4 bg-gradient-to-r from-red-600 to-pink-500 text-white font-semibold rounded-full hover:opacity-90 transition"
+          className="px-8 py-4 bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-semibold rounded-full hover:opacity-90 transition"
         >
           Contact Us for a Consultation
         </a>

@@ -14,10 +14,10 @@ const Navbar = () => {
       <div className="flex justify-between items-center px-6 md:px-16 h-16">
         {/* Logo */}
         <button
-          className="text-xl font-bold text-gray-800"
+          className="text-xl font-bold text-gray-800 "
           onClick={handleClick}
         >
-          LOGO
+         Vision India Tech
         </button>
 
         {/* Desktop Menu */}
