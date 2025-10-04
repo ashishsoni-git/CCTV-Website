@@ -29,7 +29,7 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-start gap-6 px-4 md:px-10 lg:px-16 mt-6 mb-10">
+      <div className="flex flex-col md:flex-row justify-center items-start gap-6 px-4 md:px-10 lg:px-16 pt-[3.2rem]">
         {/* Left: Contact Form */}
         <form
           onSubmit={handleSubmit}
@@ -97,7 +97,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="mt-3 w-full py-3 rounded-lg bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-semibold shadow-md hover:scale-[1.02] hover:shadow-lg transition-all duration-300"
+              className=" w-full py-3 rounded-lg bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-semibold shadow-md hover:scale-[1.02] hover:shadow-lg transition-all duration-300"
             >
               Send Message
             </button>
