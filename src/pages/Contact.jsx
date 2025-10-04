@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Contact = () => {
   const [data, setData] = useState({
     name: "",
-    email:"",
+    email: "",
     phone: "",
     message: "",
   });
@@ -15,12 +15,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setData({ name: "", phone: "", message: "" });
-    alert("Submitted")
+    setData({ name: "", email: "", phone: "", message: "" });
+    alert("Submitted");
   };
 
   return (
-    <div className="relative bg-gradient-to-br from-gray-50 via-white to-gray-100 w-full min-h-screen flex justify-center items-center px-4">
+    <div className="bg-gradient-to-br from-gray-50 via-white to-gray-100 w-full min-h-screen flex justify-center items-center px-4 pt-24">
       <div className="w-full max-w-lg mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-center text-[#050748] mb-6">
           CONTACT US
@@ -28,7 +28,7 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit}
-          className="bg-white shadow-lg rounded-2xl p-6 sm:p-8 flex flex-col gap-6"
+          className="bg-white shadow-lg rounded-2xl p-6 sm:p-8 flex flex-col gap-y-2"
         >
           <div>
             <label className="block text-sm font-semibold text-gray-600 mb-2">
@@ -45,7 +45,7 @@ const Contact = () => {
             />
           </div>
 
-           <div>
+          <div>
             <label className="block text-sm font-semibold text-gray-600 mb-2">
               Your Email
             </label>
