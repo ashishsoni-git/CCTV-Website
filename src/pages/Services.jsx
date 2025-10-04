@@ -1,5 +1,6 @@
 import React from "react";
 import WrapperWhatWeOffer from "../components/WrapperWhatWeOffer";
+import { PageTitle } from "../components/PageTitle";
 
 const Services = () => {
   const services = [
@@ -45,9 +46,9 @@ const Services = () => {
     <>
       <section className="bg-gradient-to-br from-white via-gray-50 to-gray-100 py-16 mt-2">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center text-[#050748] flex justify-center  h-[8rem] pb-16">
-            SERVICES
-          </h2>
+          <div className="sticky top-[4rem] bg-gradient-to-br from-gray-50 via-white to-gray-100 z-10 ">
+            <PageTitle pageTitle="SERVICES" />
+          </div>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service, index) => (
@@ -75,9 +76,9 @@ const Services = () => {
       </section>
 
       <section className="flex flex-col justify-center items-center ">
-        <h3 className="text-3xl md:text-4xl font-extrabold text-center text-[#050748] flex justify-center h-[8rem] pt-8 ">
-          What We Offer!
-        </h3>
+        <div className="sticky top-[4rem] bg-white z-10 w-[100%]">
+          <PageTitle pageTitle="WHAT WE OFFER!" />
+        </div>
 
         <WrapperWhatWeOffer />
       </section>
